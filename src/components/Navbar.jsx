@@ -69,7 +69,7 @@ const Navbar = () => {
           Best <span className="font-bold">Eats</span>
         </h2>
         <nav>
-          <ul className="flex flex-col text-gray-800 p-4">
+          <ul className="flex flex-col text-gray-800 p-4 cursor-pointer">
             <li className="text-xl py-4 flex">
               <TbTruckDelivery size={25} className="mr-4" /> Orders
             </li>
