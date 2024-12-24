@@ -6,8 +6,8 @@ const HeadlineCards = () => {
   useGSAP(() => {
     gsap.fromTo(
       "#card-text",
-      { y: "-80px" },
-      { y: 0, delay: 0.5, stagger: 0.5 }
+      { y: "-80px", opacity: 0 },
+      { y: 0, opacity: 1, delay: 0.5, stagger: 0.5 }
     );
 
     gsap.fromTo("#card-btn", { opacity: 0 }, { opacity: 1, delay: 3.5 });
